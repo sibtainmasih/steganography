@@ -1,2 +1,2 @@
-# steganography
-Implementation of Steganography techniques in Python
+# Steganography
+Implementation of Steganography techniques using Python
