@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 import math
-from utils import get_range_tuple
+from .utils import get_range_tuple
 
 class PixelValueDifferencing:
 

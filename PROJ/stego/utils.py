@@ -16,6 +16,8 @@ def get_range_tuple(difference):
         lower,upper = 32,63
     elif 64 <= difference <= 127:
         lower,upper = 64,127
+    elif 128 <= difference <=255:
+        lower,upper = 128, 255
 
     width = upper-lower+1
     t = math.log(width, 2)
